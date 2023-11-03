@@ -1,4 +1,4 @@
-# @luckydrq/ansi-to-html
+# luckydrq-ansi-to-html
 
 Forked from [rburns/ansi-to-html](https://github.com/rburns/ansi-to-html).
 

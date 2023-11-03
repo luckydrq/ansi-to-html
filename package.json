@@ -1,5 +1,5 @@
 {
-  "name": "@luckydrq/ansi-to-html",
+  "name": "luckydrq-ansi-to-html",
   "version": "1.0.0",
   "description": "Convert ansi escaped text streams to html.",
   "main": "lib/ansi_to_html.js",
