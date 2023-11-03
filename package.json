@@ -1,6 +1,6 @@
 {
   "name": "luckydrq-ansi-to-html",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Convert ansi escaped text streams to html.",
   "main": "lib/ansi_to_html.js",
   "engines": {
