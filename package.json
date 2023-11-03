@@ -30,9 +30,8 @@
     "html"
   ],
   "author": {
-    "name": "Rob Burns",
-    "email": "rburns@paiges.net",
-    "url": "http://rburns.paiges.net/"
+    "name": "luckydrq",
+    "email": "drqzju@gmail.com"
   },
   "contributors": [
     {
@@ -104,6 +103,6 @@
     "entities": "^4.0.0"
   },
   "bin": {
-    "ansi-to-html": "./bin/ansi-to-html"
+    "luckydrq-ansi-to-html": "./bin/ansi-to-html"
   }
 }

@@ -1,4 +1,4 @@
-declare module 'ansi-to-html' {
+declare module 'luckydrq-ansi-to-html' {
   interface ConverterOptions {
     /** The default foreground color used when reset color codes are encountered. */
     fg?: string;
