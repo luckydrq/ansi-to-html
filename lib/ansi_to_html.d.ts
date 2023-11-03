@@ -1,23 +1,23 @@
 declare module 'ansi-to-html' {
   interface ConverterOptions {
     /** The default foreground color used when reset color codes are encountered. */
-    fg?: string
+    fg?: string;
     /** The default background color used when reset color codes are encountered. */
-    bg?: string
+    bg?: string;
     /** Convert newline characters to `<br/>`. */
-    newline?: boolean
+    newline?: boolean;
     /** Generate HTML/XML entities. */
-    escapeXML?: boolean
+    escapeXML?: boolean | ((text: string) => string);
     /** Save style state across invocations of `toHtml()`. */
-    stream?: boolean
+    stream?: boolean;
     /** Can override specific colors or the entire ANSI palette. */
-    colors?: string[] | {[code: number]: string}
+    colors?: string[] | { [code: number]: string };
   }
 
   class Convert {
-    constructor(options?: ConverterOptions)
-    toHtml(data: string): string
+    constructor(options?: ConverterOptions);
+    toHtml(data: string): string;
   }
 
-  export = Convert
+  export = Convert;
 }

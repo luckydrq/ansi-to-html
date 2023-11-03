@@ -6,12 +6,13 @@
     "mocha": true
   },
   "parserOptions": {
-    "ecmaVersion": "2018"
+    "ecmaVersion": 2018
   },
   "extends": "eslint:recommended",
   "rules": {
-    "strict": ["error"],
-    "indent": ["error", 4, {"SwitchCase": 1}],
+    "strict": [
+      "error"
+    ],
     "linebreak-style": [
       "error",
       "unix"
